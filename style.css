@@ -88,6 +88,20 @@ aside span {
 aside a {
     text-decoration: none;
     color: #eaeaea;
+    transition: transform .2s ease-in-out;
+}
+
+aside div {
+    display: flex;
+    gap: 20px;
+}
+
+aside div a:hover {
+    transform: scale(1.1);
+}
+
+aside div a img {
+    width: 30px;
 }
 
 nav {
